@@ -1,0 +1,33 @@
+
+   /*logo header + footer */
+   .web{
+    display: inline-block;
+  
+    color: var(--accent-color);
+    font-family: Raleway,OpenSans;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+ /*logo hesder*/
+.studio{
+ 
+    color: var(--studio-color--);
+    font-family:Raleway, OpenSans;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.2;
+   }
+
+   /*logo footer*/
+
+.logo{
+    display: inline-block;
+    
+    color: var(--main-title-color);
+    font-family: Raleway,OpenSans;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+  }
