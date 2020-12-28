@@ -66,7 +66,7 @@
     margin-bottom: 20px;
   }
 
-  .fform-field__label,
+  .form-field__label,
   .comment__label{
     display: block;
 
@@ -183,7 +183,7 @@
     background-position: center;
   }
 
-  .checkbox__input:checked +.text-checkbox::before{
+  .checkbox__input:checked +.checkbox__text::before{
     background-color: var(--accent-color);
     background-image: url(../images/icon/check.svg);
     background-origin: border-box;
