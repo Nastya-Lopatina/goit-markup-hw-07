@@ -84,15 +84,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+
+    &:hover,
+    &:focus,
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    color: var(--main-title-color);
+    }
   }
   
-  .social__link:hover,
-  .social__link:focus,
-  .social__icon:hover,
-  .social__icon:focus {
-  background-color: var(--accent-color);
-  color: var(--main-title-color);
-  }
    
   .social__icon{
     fill:currentColor;
