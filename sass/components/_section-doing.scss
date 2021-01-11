@@ -7,9 +7,9 @@
     margin-bottom: 50px;
   
     color: $main-text-color;
-    font-weight: 700;
+    font-weight: $basic-weight;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: $first-height;
     text-align: center;
   }
     
@@ -34,9 +34,9 @@
     background-color:$title-big-img-background;
     color: $main-title-color;
   
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-weight:$basic-weight;
+    font-size:  $basic-size;
+    line-height: $secondary-height;
     text-transform: uppercase;
     text-align: center;
   }

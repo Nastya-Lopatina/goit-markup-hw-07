@@ -5,9 +5,9 @@
   
     color: $accent-color;
     font-family: $logo-font;
-    font-weight: 700;
+    font-weight:$basic-weight;
     font-size: 26px;
-    line-height: 1.2;
+    line-height:$first;
   }
 
  /*logo hesder*/
@@ -15,9 +15,9 @@
  
     color: $studio-color;
     font-family: $logo-font;
-    font-weight: 700;
+    font-weight:$basic-weight;
     font-size: 26px;
-    line-height:1.2;
+    line-height:$first;
    }
 
    /*logo footer*/
@@ -26,8 +26,8 @@
     display: inline-block;
     
     color: $main-title-color;
-    font-family:  $logo-font;
-    font-weight: 700;
+    font-family: $logo-font;
+    font-weight: $basic-weight;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: $first-height;
   }

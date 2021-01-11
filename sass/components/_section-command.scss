@@ -48,9 +48,9 @@
     margin-bottom: 10px;
     
     color: $main-text-color;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
+    font-weight: $subsidiary-weight;
+    font-size:$second-size1;
+    line-height:$first;
     text-align: center;
   }
   
@@ -58,9 +58,9 @@
     margin: 0;
   
     color: $text-color;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
+    font-weight:$second-weight;
+    font-size: $second-size1;
+    line-height: $first-height;
     text-align: center;
   }
   

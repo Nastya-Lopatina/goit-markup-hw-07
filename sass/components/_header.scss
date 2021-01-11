@@ -33,9 +33,9 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     color: $main-title-color;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-weight: $subsidiary-weight;
+    font-size:  $basic-size;
+    line-height: $secondary-height;
     letter-spacing: 0.02em;
 
      &.current::after{
@@ -90,8 +90,8 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
     color: $text-color;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight:$subsidiary;
+    font-size:  $basic-size;
     line-height: 1.14;
     letter-spacing: 0.02em;
 

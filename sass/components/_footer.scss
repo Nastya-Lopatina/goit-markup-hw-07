@@ -29,21 +29,21 @@
 .info__address{
   color:  $main-title-color;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-weight:$second-weight;
+  font-size:  $basic-size;
+  line-height: $third-height;
 }
 .info__mail{
   color: $contact-color;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size:  $basic-size;
+  line-height: $third-height;
 }
 .info__tel{
   color: $contact-color;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size:  $basic-size;
+  line-height: $third-height;
 }
 
 /*Присоединяйтесь*/
@@ -55,9 +55,9 @@
     margin-bottom: 20px;
   
     color: $main-title-color;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-weight:$basic-weight;
+    font-size:  $basic-size;
+    line-height:$secondary-height;
     text-transform: uppercase;
     }
   

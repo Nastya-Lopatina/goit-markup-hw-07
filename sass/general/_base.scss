@@ -1,9 +1,9 @@
 /* Общие свойства всего документа*/
 
 body{
-    background-color:var(--main-title-color);
-    color:var(--main-text-color);
-    font-family: Roboto,OpenSans;
+    background-color:$main-title-color;
+    color: $main-text-color;
+    font-family: $primary-font;
     letter-spacing: 0.03em
     }
   
