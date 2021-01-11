@@ -1,6 +1,6 @@
 /*FOOTER*/
 .footer{
-  background-color: var(--footer-hero-color);
+  background-color:  $footer-hero-color;
 }
 
 .footer .container{
@@ -27,20 +27,20 @@
   }
 
 .info__address{
-  color: var(--main-title-color);
+  color:  $main-title-color;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .info__mail{
-  color: var(--contact-color);
+  color: $contact-color;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .info__tel{
-  color: var(--contact-color);
+  color: $contact-color;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -54,7 +54,7 @@
     margin-top: 0;
     margin-bottom: 20px;
   
-    color: var(--main-title-color);
+    color: $main-title-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -77,17 +77,17 @@
     align-items: center;
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: var(--social-link-footer-background) ;
+    background-color: $social-link-footer-background ;
     border-radius: 50px;
 
     &:hover,
     &:focus{
-      background-color: var(--accent-color);
+      background-color:  $accent-color;
     }
   }
 
   .social-footer__icon{
-    fill: var(--main-title-color);
+    fill: $main-title-color;
   }
   
   
@@ -96,7 +96,7 @@
     display: flex;
   }
   .form-footer__input{
-    color:var(--main-title-color);
+    color:$main-title-color;
     padding-left: 16px; 
     width: 358px;
     height: 50px;
@@ -104,7 +104,7 @@
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    background:var(--footer-hero-color);
+    background:$footer-hero-color;
   }
   .subscribe{
    margin-left: 12px;
