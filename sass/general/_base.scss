@@ -1,6 +1,8 @@
 /* Общие свойства всего документа*/
 
 body{
+  
+   overflow-x: hidden;
     background-color:$main-title-color;
     color: $main-text-color;
     font-family: $primary-font;
